@@ -1,7 +1,8 @@
 # imageSteg
 
-A simple image steganography python program, can save text messages in an image file.<br>
-Using PIL and the numpy library.<br>
+A simple image **steganography** python program, that can **encode/decode a text messages in an image file**, without affecting the picture quality.<br>
+Uses **PIL** and the **numpy** library.<br>
+Message encoding/decoding is done by **manipulating the LSB** of each individual pixel in each channel. <br>
 The main.py contains the required function code.<br>
 To see a demo, open one of the jupyter notebooks.
 
